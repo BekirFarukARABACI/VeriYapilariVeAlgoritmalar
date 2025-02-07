@@ -49,20 +49,7 @@ struct DateTime kullanılarak tarih/saat verileri gruplandırılır.
 - Fark > 3600 saniye ise: "⏳ Toplantıya daha zaman var."
 
 -------------------------------
-🛠️ 5. DERLEME VE ÇALIŞTIRMA
--------------------------------
-1. Derleme Komutu:
-   gcc -o meeting_reminder meeting_reminder.c
-
-2. Çalıştırma:
-   ./meeting_reminder
-
-3. Girdi Formatı:
-   YYYY MM DD HH MM SS
-   Örn: 2025 03 01 14 00 00
-
--------------------------------
-✅ 6. ÖRNEK SENARYOLAR
+✅ 5. ÖRNEK SENARYOLAR
 -------------------------------
 1️⃣ Geçerli Tarih:
    Girdi: 2025 03 01 14 00 00
@@ -77,33 +64,13 @@ struct DateTime kullanılarak tarih/saat verileri gruplandırılır.
    Çıktı: ❌ Bu toplantı tarihi geçti.
 
 -------------------------------
-📖 7. EPOCH ZAMANI NEDİR?
+📖 6. EPOCH ZAMANI NEDİR?
 -------------------------------
 Epoch zamanı, 1 Ocak 1970, 00:00:00 UTC’den itibaren geçen toplam saniye sayısıdır.
 - Epoch "0" zamanı: 1 Ocak 1970 UTC
 - Örnek epoch değeri: 1700000000 (bu sayı kadar saniye geçmiş demektir)
 
 -------------------------------
-🗃️ 8. GITHUB’A YÜKLEME ADIMLARI
--------------------------------
-1. GitHub hesabı oluşturun: https://github.com
-2. Yeni bir repository oluşturun (ör: meeting-reminder).
-3. Terminalde şu komutları çalıştırın:
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/kullaniciadi/meeting-reminder.git
-   git push -u origin main
-
--------------------------------
-🎥 9. VİDEO İÇERİĞİ ÖNERİLERİ
--------------------------------
-- Kod yapısını ve dosya organizasyonunu gösterin.
-- Fonksiyonların nasıl çalıştığını teknik olarak açıklayın.
-- Programı farklı senaryolarla çalıştırarak sonuçları gösterin.
-
--------------------------------
-📜 10. LİSANS
+📜 7. LİSANS
 -------------------------------
 Bu proje eğitim amaçlı geliştirilmiştir. Katkılara açıktır. 🚀

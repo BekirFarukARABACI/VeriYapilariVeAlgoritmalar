@@ -54,6 +54,4 @@ Feb 14 10:17:42 mypc sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COM
 - `syslog.txt` dosyasının program ile aynı dizinde bulunması gerekmektedir.
 - Program çalıştırılmadan önce `syslog.txt` içeriğinin uygun şekilde oluşturulduğundan emin olunmalıdır.
 
-## Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
 
